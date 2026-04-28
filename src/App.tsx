@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-import Home from './Home'
-import Contact from './Contact'
+import Home from './assets/Home'
+import Contact from './assets/Contact'
 import './App.css'
 
 function App() {
