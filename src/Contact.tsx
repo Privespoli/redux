@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { agregarA, agregarB, reiniciar } from "./redux";
+import { agregarA, agregarB, reiniciar, agregars2 } from "./redux";
 import type { RootState } from "./store";
 
 
@@ -25,6 +25,15 @@ function Contact() {
       >
         AgregarB
       </button>
+
+       <button
+                    onClick={() => {
+                      dispatch(agregars2());
+                    }}
+                  >
+                    Agregars2
+                  </button>
+                  
             <button
         onClick={() => {
           dispatch(reiniciar());

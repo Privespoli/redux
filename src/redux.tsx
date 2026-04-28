@@ -18,6 +18,9 @@ const palabraSlice = createSlice({
     agregarB: (state) => {
       state.value += "B";
     },
+    agregars2: (state) => {
+      state.value += "❤️";
+    },
     reiniciar: (state) => {
       state.value = "hola";
     },
@@ -25,6 +28,6 @@ const palabraSlice = createSlice({
 });
 
 
-export const {agregarA, agregarB, reiniciar}=palabraSlice.actions;
+export const {agregarA, agregarB, reiniciar, agregars2}=palabraSlice.actions;
 
 export default palabraSlice.reducer;
